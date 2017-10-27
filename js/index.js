@@ -1,7 +1,7 @@
 var tableData = [];
 
 getJson(
-    "https://raw.githubusercontent.com/opendatajson/football.json/master/2017-18/es.1.clubs.json",
+    "https://raw.githubusercontent.com/opendatajson/football.json/master/2016-17/es.1.clubs.json",
     function (data) {
         tableData = data.clubs;
         fillTable(tableData);
@@ -33,6 +33,30 @@ document.querySelector("#sort-btn").addEventListener("click", function () {
             return 1;
         }
         return a.code.localeCompare(b.code);
+    });
+    fillTable(tableData);
+});
+
+document.querySelector("#sort-btn-name").addEventListener("click", function () {
+    tableData.sort(function (a, b) {
+        if (!a.name) {
+            return -1;
+        } else if (!b.name) {
+            return 1;
+        }
+        return a.name.localeCompare(b.name);
+    });
+    fillTable(tableData);
+});
+
+document.querySelector("#sort-btn-key").addEventListener("click", function () {
+    tableData.sort(function (a, b) {
+        if (!a.key) {
+            return -1;
+        } else if (!b.key) {
+            return 1;
+        }
+        return a.key.localeCompare(b.key);
     });
     fillTable(tableData);
 });
