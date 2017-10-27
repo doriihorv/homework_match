@@ -1,7 +1,10 @@
 var tableData = [];
 
-getJson(
-    "https://raw.githubusercontent.com/opendatajson/football.json/master/2017-18/es.1.clubs.json",
+getJson( <<
+    << << < HEAD "https://raw.githubusercontent.com/opendatajson/football.json/master/2017-18/es.1.clubs.json", ===
+    === =
+    "https://raw.githubusercontent.com/opendatajson/football.json/master/2017-18/en.1.clubs.json", >>>
+    >>> > 91 d6106119b45850ae91f75dfd812d2cfa28febe
     function (data) {
         tableData = data.clubs;
         fillTable(tableData);
