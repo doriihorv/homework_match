@@ -1,10 +1,8 @@
 {
   "name": "Primera División 2016/17",
-  "rounds": [
-    {
+  "rounds": [{
       "name": "Jornada 1",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-08-19",
           "team1": {
             "key": "malaga",
@@ -158,8 +156,7 @@
     },
     {
       "name": "Jornada 2",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-08-26",
           "team1": {
             "key": "betis",
@@ -313,8 +310,7 @@
     },
     {
       "name": "Jornada 3",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-09-09",
           "team1": {
             "key": "realsociedad",
@@ -468,8 +464,7 @@
     },
     {
       "name": "Jornada 4",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-09-16",
           "team1": {
             "key": "betis",
@@ -623,8 +618,7 @@
     },
     {
       "name": "Jornada 5",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-09-20",
           "team1": {
             "key": "malaga",
@@ -778,8 +772,7 @@
     },
     {
       "name": "Jornada 6",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-09-23",
           "team1": {
             "key": "betis",
@@ -933,8 +926,7 @@
     },
     {
       "name": "Jornada 7",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-09-30",
           "team1": {
             "key": "realsociedad",
@@ -1088,8 +1080,7 @@
     },
     {
       "name": "Jornada 8",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-10-14",
           "team1": {
             "key": "laspalmas",
@@ -1243,8 +1234,7 @@
     },
     {
       "name": "Jornada 9",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-10-23",
           "team1": {
             "key": "villareal",
@@ -1398,8 +1388,7 @@
     },
     {
       "name": "Jornada 10",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-10-30",
           "team1": {
             "key": "laspalmas",
@@ -1553,8 +1542,7 @@
     },
     {
       "name": "Jornada 11",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-11-06",
           "team1": {
             "key": "laspalmas",
@@ -1708,8 +1696,7 @@
     },
     {
       "name": "Jornada 12",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-11-20",
           "team1": {
             "key": "eibar",
@@ -1863,8 +1850,7 @@
     },
     {
       "name": "Jornada 13",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-11-27",
           "team1": {
             "key": "eibar",
@@ -2018,8 +2004,7 @@
     },
     {
       "name": "Jornada 14",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-12-04",
           "team1": {
             "key": "betis",
@@ -2173,8 +2158,7 @@
     },
     {
       "name": "Jornada 15",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-12-11",
           "team1": {
             "key": "betis",
@@ -2328,8 +2312,7 @@
     },
     {
       "name": "Jornada 16",
-      "matches": [
-        {
+      "matches": [{
           "date": "2016-12-18",
           "team1": {
             "key": "athletic",
@@ -2483,8 +2466,7 @@
     },
     {
       "name": "Jornada 17",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-01-08",
           "team1": {
             "key": "athletic",
@@ -2638,8 +2620,7 @@
     },
     {
       "name": "Jornada 18",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-01-15",
           "team1": {
             "key": "celta",
@@ -2793,8 +2774,7 @@
     },
     {
       "name": "Jornada 19",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-01-22",
           "team1": {
             "key": "alaves",
@@ -2948,8 +2928,7 @@
     },
     {
       "name": "Jornada 20",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-01-29",
           "team1": {
             "key": "madrid",
@@ -3103,8 +3082,7 @@
     },
     {
       "name": "Jornada 21",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-05-17",
           "team1": {
             "key": "celta",
@@ -3258,8 +3236,7 @@
     },
     {
       "name": "Jornada 22",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-02-12",
           "team1": {
             "key": "osasuna",
@@ -3413,8 +3390,7 @@
     },
     {
       "name": "Jornada 23",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-02-19",
           "team1": {
             "key": "celta",
@@ -3568,8 +3544,7 @@
     },
     {
       "name": "Jornada 24",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-02-26",
           "team1": {
             "key": "espanyol",
@@ -3723,8 +3698,7 @@
     },
     {
       "name": "Jornada 25",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-03-01",
           "team1": {
             "key": "celta",
@@ -3878,8 +3852,7 @@
     },
     {
       "name": "Jornada 26",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-03-05",
           "team1": {
             "key": "villareal",
@@ -4033,8 +4006,7 @@
     },
     {
       "name": "Jornada 27",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-03-12",
           "team1": {
             "key": "celta",
@@ -4188,8 +4160,7 @@
     },
     {
       "name": "Jornada 28",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-03-19",
           "team1": {
             "key": "laspalmas",
@@ -4343,8 +4314,7 @@
     },
     {
       "name": "Jornada 29",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-04-02",
           "team1": {
             "key": "celta",
@@ -4498,8 +4468,7 @@
     },
     {
       "name": "Jornada 30",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-04-05",
           "team1": {
             "key": "eibar",
@@ -4653,8 +4622,7 @@
     },
     {
       "name": "Jornada 31",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-04-09",
           "team1": {
             "key": "celta",
@@ -4808,8 +4776,7 @@
     },
     {
       "name": "Jornada 32",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-04-16",
           "team1": {
             "key": "betis",
@@ -4963,8 +4930,7 @@
     },
     {
       "name": "Jornada 33",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-04-23",
           "team1": {
             "key": "celta",
@@ -5118,8 +5084,7 @@
     },
     {
       "name": "Jornada 34",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-04-26",
           "team1": {
             "key": "athletic",
@@ -5273,8 +5238,7 @@
     },
     {
       "name": "Jornada 35",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-04-30",
           "team1": {
             "key": "celta",
@@ -5428,8 +5392,7 @@
     },
     {
       "name": "Jornada 36",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-05-07",
           "team1": {
             "key": "alaves",
@@ -5583,8 +5546,7 @@
     },
     {
       "name": "Jornada 37",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-05-14",
           "team1": {
             "key": "alaves",
@@ -5738,8 +5700,7 @@
     },
     {
       "name": "Jornada 38",
-      "matches": [
-        {
+      "matches": [{
           "date": "2017-05-21",
           "team1": {
             "key": "leganes",
