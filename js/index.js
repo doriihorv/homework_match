@@ -17,7 +17,7 @@ function fillTable(rows) {
         tr += "<td>" + rows[i].key + "</td>";
         tr += "<td>" + rows[i].name + "</td>";
         tr += "<td>" + rows[i].code + "</td>";
-        tr += '<td><a class="btn btn-primary" href="match.html?code=' + rows[i].code + '">match</a></td>';
+        tr += '<td><a class="btn btn-primary" href="match.html?name=' + rows[i].name + '">match</a></td>';
         tr += "</tr>";
         content += tr;
     }
@@ -59,4 +59,20 @@ document.querySelector("#sort-btn-key").addEventListener("click", function () {
         return a.key.localeCompare(b.key);
     });
     fillTable(tableData);
+});
+
+
+document.querySelector("#searchbtn").addEventListener("click", function () {
+
+    var str = document.querySelector("#searchtxt").value;
+    var trs = document.querySelectorAll("#data-table tr");
+
+    console.log(str);
+    for (var i = 1; i < trs.length; i++) {
+        console.log((trs[i].children[1].textContent).indexOf(str));
+        trs[i].style.display = "table-row";
+        if ((trs[i].children[1].textContent).indexOf(str) <= -1) {
+            trs[i].style.display = "none";
+        }
+    }
 });
