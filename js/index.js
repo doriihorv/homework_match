@@ -66,12 +66,21 @@ document.querySelector("#searchbtn").addEventListener("click", function () {
 
     var str = document.querySelector("#searchtxt").value;
     var trs = document.querySelectorAll("#data-table tr");
+    var keresesalap = document.querySelector("#kereses").value;
+    var keresesertek = 0;
+    if (keresesalap == "key") {
+        keresesertek = 1;
+    } else if (keresesalap == "name") {
+        keresesertek = 2;
+    } else if (keresesalap == "code") {
+        keresesertek = 3;
+    }
 
-    console.log(str);
+    //console.log(str);
     for (var i = 1; i < trs.length; i++) {
-        console.log((trs[i].children[1].textContent).indexOf(str));
+        //console.log((trs[i].children[1].textContent).indexOf(str));
         trs[i].style.display = "table-row";
-        if ((trs[i].children[1].textContent).indexOf(str) <= -1) {
+        if ((trs[i].children[keresesertek].textContent).indexOf(str) <= -1) {
             trs[i].style.display = "none";
         }
     }

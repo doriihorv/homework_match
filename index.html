@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Spanyol bajnokság</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,6 +31,12 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input id="searchtxt" class="form-control mr-sm-2" type="text" placeholder="Name" aria-label="Search">
+                <select name="kereses" id="kereses" class="selectpicker">
+                    <optgroup label="Mi alapján szeretnél keresni?"></optgroup>
+                    <option value="key">Key</option>
+                    <option value="name">Name</option>
+                    <option value="code">Code</option>
+                </select>
                 <button id="searchbtn" class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
             </form>
         </div>
